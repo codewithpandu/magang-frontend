@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="p-3 flex justify-between md:justify-around items-center bg-slate-50 border-2">
+    <div className="p-4 flex justify-between md:justify-around items-center bg-slate-50 border-2">
       {/* Logo */}
       <Link to="/">
         <img src={logoImage} alt="Diskominfo Klaten" className="pt-2 w-40 md:m-0" />
