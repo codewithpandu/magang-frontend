@@ -43,10 +43,10 @@ export const Kontak = () => {
   }
 
   return (
-    <div className="h-screen">
+    <div>
       <Navbar />
       <div className="mb-12 p-6 xl:py-6 xl:px-32 md:px-16 md:mb-0">
-        <div className="w-full">
+        <div>
           <h1 className="font-semibold text-2xl pb-4">Hubungi Kami</h1>
           <div>
             <Card />

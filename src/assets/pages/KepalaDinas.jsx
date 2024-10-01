@@ -4,7 +4,7 @@ import Footer from "../../component/Footer";
 
 const KepalaDinas = () => {
   return (
-    <div className="h-screen">
+    <div>
       <Navbar />
       <div className="flex flex-row flex-wrap justify-between md:flex-nowrap mb-12 p-6 xl:py-6 xl:px-32 md:px-16 md:mb-0">
         <div className="md:basis-3/5">
